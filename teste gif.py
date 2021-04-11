@@ -68,9 +68,7 @@ elif p == p1 and p == p2 and p == p3 and p == p4 :
 
 
 else: print('error')
-print('luiz é foda')
 
-print('luiz e foda')
 
 
 
