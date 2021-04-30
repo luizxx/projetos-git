@@ -1,4 +1,5 @@
 import requests
+import json
 cep1 =  input('Digite seu cep.  1 ' ).strip() # pede ao usuário um cep
 cepf = len(cep1) # ira ler o cep, para filtrar a apenas 8 digitos mais tarde..
 res = 'l' # so pro comando sair funcionar..
