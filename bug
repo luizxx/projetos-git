@@ -1,0 +1,18 @@
+continua = 'p'
+valores = [] 
+cinco = 5 
+while continua != 'n':
+   valores.append(int(input('Digite um numero')))
+   continua = input('Deseja continuar? [S/N]').lower().strip()[0]
+   
+   if continua =='n':
+       print('Fechando programa')
+       break
+   if continua =='s':
+       print('Continuando o programa.')
+    
+
+print(f'Foram digitados {len(valores)} valores \n Sendo eles {valores.reverse()} \n ', 'Não teve 5 na lista.'if not 5 in valores else 'Teve 5 na lista.' )
+
+
+bug: retornando ' sendo eles none'
